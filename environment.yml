@@ -10,3 +10,4 @@ dependencies:
     - requests
     - click
     - python-dotenv
+    - toolz
