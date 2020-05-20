@@ -67,8 +67,7 @@
                         ;; ID with it so we can skip that title next time.
                         (-> imdb-id 
                             (get-omdb session) 
-                            (tassoc "airtable-id" airtable-id)
-                            (tassoc "imdb-id" imdb-id)))
+                            (tassoc "airtable-id" airtable-id)))
                     (.append imdb-entries imdb-entry)
                     (sleep 0.1)
                     ;; Skip the append if we couldn't get any data.
