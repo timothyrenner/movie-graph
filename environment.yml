@@ -11,3 +11,5 @@ dependencies:
     - click
     - python-dotenv
     - toolz
+    - python-dateutil
+    - pytimeparse
